@@ -1,5 +1,4 @@
 const express = require('express');
-const colors = require('colors');
 require('dotenv').config();
 const { createHandler } = require('graphql-http/lib/use/express');
 const schema = require('./schema/schema');
